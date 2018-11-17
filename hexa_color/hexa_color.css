@@ -1,0 +1,14 @@
+#d
+{
+	background: linear-gradient(rgba(255,255,255,.1), rgba (0,0,0,.7));
+	border-radius: 15px;
+	text-align: center; padding: 15px; text-shadow: 0 0 2px #000;
+	text-shadow: 0 0 5px #000;
+}
+
+p{
+
+	color: rgba(155,155,155,1);
+	display: inline;
+	font-size:2.3em;
+}

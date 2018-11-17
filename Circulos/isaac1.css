@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+/*------------------------------------------------------------------------------------------------------*/
+body{
+
+margin:  0 ;
+padding: 0;
+background: #000;
+font-family: 'Kaushan Script',cursive;
+overflow: hidden; /* just black*/
+}/* over*/
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+ul
+{
+margin: 0;
+padding:0;
+position: absolute;
+left:30%;
+top: 30%;
+}
+ul li{
+
+list-style: none;
+width: 150px;
+height: 150px;
+position: absolute;
+top: 0;
+border-radius: 100%;
+box-shadow: 0 0 5px rgba(0,0,0,.5);
+transform-origin: bottom center;
+animation: animate 7s linear infinite;
+
+}
+/*-------------------------------------------------------------------------------------------------------------*/
+
+@keyframes animate 
+{
+   0% 	
+   {
+transform: rotate(0deg);
+   }
+   100%
+   {
+
+   	transform: rotate(359deg);
+   }
+
+}
+/*-------------------------------------------------------------------------------------------*/
+
+ul li:nth-child(1) 
+
+{
+
+background: rgba(214,188,211,.8); 
+animation-delay: 0s;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+ul li:nth-child(2) 
+{
+
+
+background: rgba(216,134,167,.8); 
+animation-delay: 1s;
+
+
+}
+
+/*--------------------------------------------------------------------------*/
+ul li:nth-child(3) 
+{
+
+
+background: rgba(117,101,212,.8); 
+animation-delay: 2s;
+
+
+}
+
+/*--------------------------------------------------------------------------*/
+
+
+ul li:nth-child(4) 
+{
+
+
+background: rgba(123,77,197,.8); 
+animation-delay: 3s;
+
+
+}
+/*-----------------------------------------------------------------------------*/
+
+
+ul li:nth-child(5) 
+{
+
+
+background: rgba(253,143,232,.8); 
+animation-delay: 4s;
+
+
+}
+
+/*-----------------------------------------------------------------------------*/
+
+
+ul li:nth-child(6) 
+{
+
+
+background: rgba(251,125,195,.8); 
+animation-delay: 5s;
+
+
+}
+
+/*-----------------------------------------------------------------------------*/
+
+
+ul li:nth-child(7) 
+{
+
+
+background: rgba(299,103,154,.8); 
+animation-delay: 6s;
+
+
+}
+
+/*-----------------------------------------------------------------------------*/
+
+
+ul li:nth-child(8) 
+{
+
+
+background: rgba(48,83,144,.4); 
+animation-delay: 7s;
+
+
+}
+
+/*---------------------------------------------------------------------------------*/
+
+h2
+{
+
+margin: 40px 0 0;
+padding: 0;
+text-align: center;
+font-size: 4em;
+animation: colorAnimate 5s linear infinite;
+}
+
+/*------------------------------------------------------------------*/
+@keyframes colorAnimate
+{
+
+0%
+{
+
+	color: #c30000;
+}
+25%
+{
+
+
+	color:#1c547d;
+}
+50%
+{
+
+color: #c00a504;
+
+}
+
+75%
+{
+
+color:#ce7b900;
+
+}
+
+100%
+{
+color: #c30000;
+
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
